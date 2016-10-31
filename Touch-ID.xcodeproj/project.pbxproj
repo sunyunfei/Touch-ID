@@ -15,6 +15,9 @@
 		05E8FBA81DC35F5F00E23A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8FBA61DC35F5F00E23A96 /* LaunchScreen.storyboard */; };
 		05E8FBB31DC35F5F00E23A96 /* Touch_IDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8FBB21DC35F5F00E23A96 /* Touch_IDTests.m */; };
 		05E8FBBE1DC35F5F00E23A96 /* Touch_IDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8FBBD1DC35F5F00E23A96 /* Touch_IDUITests.m */; };
+		05E8FBCD1DC35F8E00E23A96 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E8FBCC1DC35F8E00E23A96 /* LocalAuthentication.framework */; };
+		05E8FBD01DC35FBC00E23A96 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E8FBCF1DC35FBC00E23A96 /* ShowViewController.m */; };
+		05E8FBD21DC3602100E23A96 /* lbxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05E8FBD11DC3602100E23A96 /* lbxx.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		05E8FBB91DC35F5F00E23A96 /* Touch-IDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touch-IDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E8FBBD1DC35F5F00E23A96 /* Touch_IDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch_IDUITests.m; sourceTree = "<group>"; };
 		05E8FBBF1DC35F5F00E23A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E8FBCC1DC35F8E00E23A96 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		05E8FBCE1DC35FBC00E23A96 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		05E8FBCF1DC35FBC00E23A96 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		05E8FBD11DC3602100E23A96 /* lbxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lbxx.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E8FBCD1DC35F8E00E23A96 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,7 @@
 				05E8FBB11DC35F5F00E23A96 /* Touch-IDTests */,
 				05E8FBBC1DC35F5F00E23A96 /* Touch-IDUITests */,
 				05E8FB961DC35F5F00E23A96 /* Products */,
+				05E8FBCB1DC35F8E00E23A96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +110,13 @@
 		05E8FB971DC35F5F00E23A96 /* Touch-ID */ = {
 			isa = PBXGroup;
 			children = (
+				05E8FBD11DC3602100E23A96 /* lbxx.jpg */,
 				05E8FB9B1DC35F5F00E23A96 /* AppDelegate.h */,
 				05E8FB9C1DC35F5F00E23A96 /* AppDelegate.m */,
 				05E8FB9E1DC35F5F00E23A96 /* ViewController.h */,
 				05E8FB9F1DC35F5F00E23A96 /* ViewController.m */,
+				05E8FBCE1DC35FBC00E23A96 /* ShowViewController.h */,
+				05E8FBCF1DC35FBC00E23A96 /* ShowViewController.m */,
 				05E8FBA11DC35F5F00E23A96 /* Main.storyboard */,
 				05E8FBA41DC35F5F00E23A96 /* Assets.xcassets */,
 				05E8FBA61DC35F5F00E23A96 /* LaunchScreen.storyboard */,
@@ -138,6 +150,14 @@
 				05E8FBBF1DC35F5F00E23A96 /* Info.plist */,
 			);
 			path = "Touch-IDUITests";
+			sourceTree = "<group>";
+		};
+		05E8FBCB1DC35F8E00E23A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E8FBCC1DC35F8E00E23A96 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05E8FBA81DC35F5F00E23A96 /* LaunchScreen.storyboard in Resources */,
+				05E8FBD21DC3602100E23A96 /* lbxx.jpg in Resources */,
 				05E8FBA51DC35F5F00E23A96 /* Assets.xcassets in Resources */,
 				05E8FBA31DC35F5F00E23A96 /* Main.storyboard in Resources */,
 			);
@@ -279,6 +300,7 @@
 				05E8FBA01DC35F5F00E23A96 /* ViewController.m in Sources */,
 				05E8FB9D1DC35F5F00E23A96 /* AppDelegate.m in Sources */,
 				05E8FB9A1DC35F5F00E23A96 /* main.m in Sources */,
+				05E8FBD01DC35FBC00E23A96 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
